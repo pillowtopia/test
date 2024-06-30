@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Document </title>
+</head> 
+<body>
+    <h1>
+        <a href="/login"> Logo </a>
+    </h1>>
+    Main Page
+    <ul>
+        <li>
+            <a href="/user/login"> Login </a>
+        </li>
+        {% if sessionId %}
+        <li>
+            <a href="/user/profile"> Profile Info</a>
+        </li>
+        {% endif %}
+    </ul>
+</body>
+</html>
